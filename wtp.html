@@ -1,0 +1,252 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Banner</title> 
+    <link rel="stylesheet" href="banner.css"> 
+    <link rel="stylesheet" href="allin1.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+      </style>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head> 
+<header class="hdr">
+
+  <a href="#main" class="logo"> <i class="fas fa-shopping-basket"></i> Travellin  </a>
+
+  <nav class="nav">
+      <a href="#main">home</a>
+      <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn"> <a >Dream Destination</a> </button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="jaipur.html">Jaipur</a>
+            <a href="ahmdbd.html">Ahmedabad</a>
+            <a href="#contact">Chandigarh</a>
+            <a href="#contact">Chennai</a>
+            <a href="#contact">Andaman</a>
+            <a href="#contact">Kochi</a>
+            <a href="#contact">Kolkata</a>
+          </div>
+        </div>    
+      <a href="#categories">categories</a>
+      <a href="#blogs">blogs</a>
+  </nav>
+
+  <div class="ikons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+  </div>
+
+  <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="search here..."onchange="openPage()">
+      <label for="search-box" class="fas fa-search"></label>
+      
+
+  <script>
+      function openPage() {
+          var text = document.getElementById("search-box").value;
+          let x = text.toLowerCase();
+          if (x === "jaipur") {
+              window.open("/jaipur.html");
+          }
+
+          if (x === "ahemdabad") {
+              window.open("/ahmdbd.html");
+          }
+          if (x === "chennai") {
+              window.open("/ahmdbd.html");
+          }
+          if (x === "ahemdabad") {
+              window.open("/ahmdbd.html");
+          }
+      }
+  </script>
+  </form>
+  
+  
+  <div class="visiting-places">
+      <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-1.png" alt="">
+          <div class="content">
+              <h3>watermelon</h3>
+              <span class="price">$4.99/-</span>
+              <span class="quantity">qty : 1</span>
+          </div>
+      </div>
+      <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-2.png" alt="">
+          <div class="content">
+              <h3>onion</h3>
+              <span class="price">$4.99/-</span>
+              <span class="quantity">qty : 1</span>
+          </div>
+      </div>
+      <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-3.png" alt="">
+          <div class="content">
+              <h3>chicken</h3>
+              <span class="price">$4.99/-</span>
+              <span class="quantity">qty : 1</span>
+          </div>
+      </div>
+      <div class="total"> total : $19.69/- </div>
+      <a href="#" class="btn">checkout</a>
+  </div>
+
+  <form action="" class="login-form">
+      <h3>login now</h3>
+      <input type="email" placeholder="your email" class="box">
+      <input type="password" placeholder="your password" class="box">
+      <p>forget your password <a href="#">click here</a></p>
+      <p>don't have an account <a href="#">create now</a></p>
+      <input type="submit" value="login now" class="btn">
+  </form>
+
+</header>
+<body style="background-color: #f0f0f5;"> 
+<section class="cd">
+    <div class="ab" style="background-image: linear-gradient(90deg, #1A1A1A 24.97%, #1A1A1A 38.3%, rgba(26, 26, 26, 0.0409746) 97.47%, #1A1A1A 100%),
+    url(wtp/back.jpg);">
+        <div class="ef">
+            <div class="gh">
+                <section class="ij">
+                    <div type="vertical" class="kl">
+                        <div class="mn">
+                            <img class="frontimg" src="wtp/front.jpg" style="height: 400px;" alt="amer fort">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="at">
+              <div><b style="font-size: 50px; top:-50px;">WORLD TRADE PARK</b><br></div>
+              <div style="font-size: 40px;" >
+                <span style="font-size:100%;color:#8DD3BB;">&bigstar;</span> 4.5/5
+              </div>
+              <a1 style="font-size: 40px;">Timings: 11:00-22:00<br></a1>
+              <a href="#" class="btn" style="color: #f0f0f5; border-color: #f0f0f5;">add to trip</a>
+            </section>
+        </div>
+    </div>
+</section>
+
+<section style="padding-left: 50px; padding-right: 50px; padding-top: 50px;" class="A">
+  <h1 class="header1">About World Trade Park</h1>
+  <p class="para">
+    World Trade Park is a famous shopping, recreational and entertainment hub in Jaipur. It is owned by Yatharth Varshney and was opened to the public in 2012, after two years of construction. The park occupies over 52 acres of land and required an amount of over 3.5 billion rupees for its establishment. It has two separate blocks on either side of a major street in Jaipur. These blocks are connected by a bridge that can be used by the customers to explore the entire mall which houses over 500 stores, a food court, cinema screens and other recreational zones. The 11 storey tall buildings adorn a blue and silver colour scheme externally and are lit every evening for the guests.
+With over 500 stores, the mall has a variety of western and ethnic clothing stores for men, women and children. There are also a number of accessory stores, footwear shops, bags, luggage, watches, Jewellery brands, sportswear, handicraft shops, gift shops, beauty, skincare and cosmetic stores. The electronics and gadget stores are also a crowd puller because they always have the latest technology for their customers.
+  </p><div class="a3"></div></section>
+  
+  <section class="ticket">
+    <div>
+  <h1 class="header12">Attractions</h1></div>
+  <div class="a1">
+    <div class="a2">
+      <div class="a21">Fantasy World</div>
+    </div>
+    <div class="a3"></div>
+    <div class="a2">
+      <div class="a21">Upcoming Under Water Restaurant</div>
+    </div>
+    <div class="a3"></div>
+    <div class="a2">
+        <div class="a21">Upcoming Classy Auditorium and Banquet</div>
+      </div>
+      <div class="a3"></div>
+      <div class="a2">
+        <div class="a21">Hi-Tech Security</div>
+      </div>
+      <div class="a3"></div>
+      <div class="a2">
+        <div class="a21">International Media Center</div>
+      </div>
+      <div class="a3"></div>
+      <div class="a2">
+        <div class="a21">Upcoming World Class Luxury Rooms</div>
+      </div>
+      <div class="a3"></div>
+</section>
+<div class="mapouter" style="padding: 50px; margin-top: 50px;"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=world trade park &amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.gachacute.com/">Gacha Cute</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+  <div class="piccontainer">
+    <h1 style="font-family: 'Raleway';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 24px; padding-top: 50px;">More Photos Of World Trade Park Mall</h1>
+  </div>
+</container>  
+    </section>
+    <div class="flexcontainer">
+    <div><button id="slidel" type="button"><</button></div>
+    <div id="container">
+      <div id="content">
+        <img class="pic" src="wtp/1.jpg">
+        <img class="pic" src="wtp/2.jpg">
+        <img class="pic" src="wtp/3.jpg">
+        <img class="pic" src="wtp/4.jpg">
+        <img class="pic" src="wtp/5.jpg">
+        <img class="pic" src="wtp/6.jpg">
+        <img class="pic" src="wtp/7.jpg">
+        <img class="pic" src="wtp/8.jpg">
+        <img class="pic" src="wtp/9.jpg">
+      </div>
+    </div>
+    <div><button id="slider" type="button">></button></div>
+    </div>
+    <script src="slidebutton.js"></script>
+ <script src="allin1.js"></script>
+ <section class="ftr">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3> Travellin <i class="fas fa-shopping-basket"></i> </h3>
+          <p>A website to help you plan your trip.</p>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> d_sony@ee.iitr.ac.in </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> d_kothari@ee.iitr.ac.in </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> a_bhattad@ee.iitr.ac.in </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> r_mandawara@ee.iitr.ac.in </a>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="frontpage.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#places" class="links"> <i class="fas fa-arrow-right"></i> places </a>
+          <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+          <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+      </div>
+
+      <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email">
+          <input type="submit" value="subscribe" class="btn">
+          <img src="image/payment.png" class="payment-img" alt="">
+      </div>
+
+  </div>
+
+
+
+</section>
+    </body>
+    </html>
