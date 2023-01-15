@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+     
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="allin1.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="hdr">
+
+    <a href="#main" class="logo"> <i class="fas fa-shopping-basket"></i> Travellin  </a>
+
+    <nav class="nav">
+        <a href="frontpage.html">home</a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><a >Dream Destination</a> </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="jaipur.html">Jaipur</a>
+              <a href="ahmdbd.html">Ahmedabad</a>
+              <a href="#contact">Chandigarh</a>
+              <a href="#contact">Chennai</a>
+              <a href="#contact">Andaman</a>
+              <a href="#contact">Kochi</a>
+              <a href="#contact">Kolkata</a>
+
+
+            </div>
+          </div>    
+        <a href="#categories">categories</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="ikons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here..."onchange="openPage()">
+        <label for="search-box" class="fas fa-search"></label>
+        
+
+    
+    </form>
+    
+    
+    <div class="visiting-places">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="main" id="main">
+
+   
+        
+   
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+
+<!-- features section ends -->
+
+<!-- products section starts  -->
+
+<section class="places" id="places">
+
+    <h1 class="heading"> Adding this City<span>Sooooon...........</span> </h1>
+     <img src="meme.webp" alt="">
+
+
+    
+
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="ftr">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Travellin <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> d_sony@ee.iitr.ac.in </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> d_kothari@ee.iitr.ac.in </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> a_bhattad@ee.iitr.ac.in </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> r_mandawara@ee.iitr.ac.in </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#main" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            
+            <a href="#places" class="links"> <i class="fas fa-arrow-right"></i> places </a>
+            <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#blog" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+
+</section>
+<!-- footer section ends -->
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="allin1.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Banner</title> 
+    <link rel="stylesheet" href="banner.css"> 
+    <link rel="stylesheet" href="allin1.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+      </style>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head> 
+<header class="hdr">
+
+  <a href="#main" class="logo"> <i class="fas fa-shopping-basket"></i> Travellin  </a>
+
+  <nav class="nav">
+      <a href="#main">home</a>
+      <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn"> <a >Dream Destination</a> </button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="jaipur.html">Jaipur</a>
+            <a href="ahmdbd.html">Ahmedabad</a>
+            <a href="#contact">Chandigarh</a>
+            <a href="#contact">Chennai</a>
+            <a href="#contact">Andaman</a>
+            <a href="#contact">Kochi</a>
+            <a href="#contact">Kolkata</a>
+          </div>
+        </div>    
+      <a href="#categories">categories</a>
+      <a href="#blogs">blogs</a>
+  </nav>
+
+  <div class="ikons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+  </div>
+
+  <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="search here..."onchange="openPage()">
+      <label for="search-box" class="fas fa-search"></label>
+      
+
+  <script>
+      function openPage() {
+          var text = document.getElementById("search-box").value;
+          let x = text.toLowerCase();
+          if (x === "jaipur") {
+              window.open("/jaipur.html");
+          }
+
+          if (x === "ahemdabad") {
+              window.open("/ahmdbd.html");
+          }
+          if (x === "chennai") {
+              window.open("/ahmdbd.html");
+          }
+          if (x === "ahemdabad") {
+              window.open("/ahmdbd.html");
+          }
+      }
+  </script>
+  </form>
+  
+  
+  <div class="visiting-places">
+      <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-1.png" alt="">
+          <div class="content">
+              <h3>watermelon</h3>
+              <span class="price">$4.99/-</span>
+              <span class="quantity">qty : 1</span>
+          </div>
+      </div>
+      <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-2.png" alt="">
+          <div class="content">
+              <h3>onion</h3>
+              <span class="price">$4.99/-</span>
+              <span class="quantity">qty : 1</span>
+          </div>
+      </div>
+      <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-3.png" alt="">
+          <div class="content">
+              <h3>chicken</h3>
+              <span class="price">$4.99/-</span>
+              <span class="quantity">qty : 1</span>
+          </div>
+      </div>
+      <div class="total"> total : $19.69/- </div>
+      <a href="#" class="btn">checkout</a>
+  </div>
+
+  <form action="" class="login-form">
+      <h3>login now</h3>
+      <input type="email" placeholder="your email" class="box">
+      <input type="password" placeholder="your password" class="box">
+      <p>forget your password <a href="#">click here</a></p>
+      <p>don't have an account <a href="#">create now</a></p>
+      <input type="submit" value="login now" class="btn">
+  </form>
+
+</header>
+<body style="background-color: #f0f0f5;"> 
+<section class="cd">
+    <div class="ab" style="background-image: linear-gradient(90deg, #1A1A1A 24.97%, #1A1A1A 38.3%, rgba(26, 26, 26, 0.0409746) 97.47%, #1A1A1A 100%),
+    url(atd/back.jpg);">
+        <div class="ef">
+            <div class="gh">
+                <section class="ij">
+                    <div type="vertical" class="kl">
+                        <div class="mn">
+                            <img class="frontimg" src="atd/front.webp" alt="amer fort">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="at">
+              <div><b style="font-size: 60px; top:-50px;">TEEN DARWAZA</b><br></div>
+              <div style="font-size: 40px;" >
+                <span style="font-size:100%;color:#8DD3BB;">&bigstar;</span> 3.5/5
+              </div>
+              <a1 style="font-size: 40px;">Timings: 9:00-21:00<br></a1>
+              <a href="#" class="btn" style="color: #f0f0f5; border-color: #f0f0f5;">add to Trip</a>
+            </section>
+        </div>
+    </div>
+</section>
+
+<section style="padding-left: 50px; padding-right: 50px; padding-top: 50px;" class="A">
+    <h1 class="header1">History of Teen Darwaza</h1>
+    <p class="para">
+        Founder of the city, Ahmed Shah had built the gateway which stands out to be the longest and oldest gateway of the 600 years old city. It is said that the famed king Jahangir used to traverse around Teen Darwaza to watch the procession from Teen Darwaza to Jama Masjid.
+    </p><div class="a3" ></div>
+    <p class="para"style="padding-top: 20px;">
+        Legends state that once the Goddess of Wealth, Lakshmi was about to leave the city when a watchman named Khawaja Siddique Kotwal at the Teen Darwaza pleaded her not to go without informing the then emperor Ahmed Shah. She was convinced to wait till the guard returned after meeting the King. The watchman went to meet Ahmed Shah but beheaded himself to ensure that the Goddess remains in the city forever.
+    </p><div class="a3" ></div>
+    <p class="para"style="padding-top: 20px;">
+        There is a mausoleum near the Bhadra Fort built in honour of the watchman. A Muslim family has been lighting a lamp in one of the opening of the historical gateway for more than six hundred years now. Flowers and atar are offered at the cavity with the belief that Goddess Laxmi resides there. Another cavity nearby is named after Ahmed Shah.
+    </p><div class="a3" ></div>
+    <p class="para"style="padding-top: 20px;">
+        A temple dedicated to Goddess Laxmi is also established near the Bhadra Fort. Used as an entrance for a long time, Teen Darwaza appears in the logo of Ahmedabad Municipal Corporation. Intricately carved pillars of the remarkable arched gateways exude admiration.
+    </p><div class="a3" ></div>
+    <p class="para"style="padding-top: 20px;">
+        The term Teen Darwaza means three doors out of which the central one is the tallest and is adorned with the images of lions and Lord Ganesha. Rest two doors are named as Char Darwaza and Wagh Darwaja.
+    </p><div class="a3" ></div>
+    <h1 class="header1"style="padding-top: 50px;">Architecture of Teen Darwaza</h1>
+    <p class="para">
+        A historical gateway stands splendidly with its three arches that rise to a height of twenty five feet. While the central arch is 17 feet wide the other two adjacent side arches extend to 13 feet. There is an open terrace which was opened in 1877 after being repaired.
+    </p><div class="a3" ></div>
+    <p class="para"style="padding-top: 20px;">
+        Visitors can watch for an important farman inscribed on the gateway by Maratha Governor Chimanji Raghunath in 1812 supporting the equal rights of the women in acquiring the ancestral property. He had appealed both the Hindu and Muslim communities to provide women an equal right in inheriting the ancestral property.
+    </p><div class="a3" ></div>
+    <p class="para"style="padding-top: 20px;">
+        Engraved in devanagari script the inscription read as “Let the daughter get her due share of father’s property without any hitch. So is Lord Vishwanath’s command. If you defy the Hindu will have to answer Mahadev and the Mussalman will have to explain to Allah or Rasool.”
+    </p><div class="a3" ></div>
+    <p class="para"style="padding-top: 20px;">
+        Beautifully decorated semi circular shaped windows of the gateway grab the attention of the visitors with its wonderful mesh work. Window located in the centre of the gateway portrays the tree of life. A striking feature of the gateway is the carving of five palm trees covered with snakes.
+    </p><div class="a3" ></div>
+</section>
+  
+<div class="mapouter" style="padding: 50px;"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=383&amp;hl=en&amp;q=teen darwaza&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.gachacute.com/">Gacha Cute</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:383px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:383px;}.gmap_iframe {height:383px!important;}</style></div>
+<container>
+  <div class="piccontainer">
+    <h1 style="font-family: 'Raleway';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 24px; padding-top: 50px;">More Photos Of Teen Darwaza </h1>
+  </div>
+</container>  
+    </section>
+    <div class="flexcontainer">
+    <div><button id="slidel" type="button"><</button></div>
+    <div id="container">
+      <div id="content">
+        <img class="pic" src="atd/1.webp">
+        <img class="pic" src="atd/2.webp">
+        <img class="pic" src="atd/3.webp">
+        <img class="pic" src="atd/5.webp">
+        <img class="pic" src="atd/6.jpg">
+        <img class="pic" src="atd/7.jpg">
+        <img class="pic" src="atd/8.jpg">
+        <img class="pic" src="atd/4.webp">
+      </div>
+    </div>
+    <div><button id="slider" type="button">></button></div>
+    </div>
+    <script src="slidebutton.js"></script>
+ <script src="allin1.js"></script>
+ <section class="ftr">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3> Travellin <i class="fas fa-shopping-basket"></i> </h3>
+          <p>A website to help you plan your trip.</p>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> d_sony@ee.iitr.ac.in </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> d_kothari@ee.iitr.ac.in </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> a_bhattad@ee.iitr.ac.in </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> r_mandawara@ee.iitr.ac.in </a>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="frontpage.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#places" class="links"> <i class="fas fa-arrow-right"></i> places </a>
+          <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+          <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+      </div>
+
+      <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email">
+          <input type="submit" value="subscribe" class="btn">
+          <img src="image/payment.png" class="payment-img" alt="">
+      </div>
+
+  </div>
+
+
+
+</section>
+    </body>
+    </html>

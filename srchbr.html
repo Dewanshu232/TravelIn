@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Tuto</title>
+</head>
+
+
+<body style=" background-color: rgb(4, 41, 255);">
+    <input type="search" value="" id="search" onchange="openPage()">
+
+    <script>
+        function openPage() {
+            var text = document.getElementById("search").value;
+            let x = text.toLowerCase();
+            if (x === "jaipur") {
+                window.open("/jaipur.html");
+            }
+
+            if (x === "ahemdabad") {
+                window.open("/ahmdbd.html");
+            }
+
+        }
+    </script>
+</body>
+
+</html>
